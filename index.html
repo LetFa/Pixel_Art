@@ -13,11 +13,10 @@
         <img src="assest/img/logo.png" alt="logo">
         <nav>
             <ul class="links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Trabalhos</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#trabalhos">Trabalhos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -25,8 +24,8 @@
 
 
     
-    <main >
-        <section class="casamento-conteudo container">
+    <main>
+        <section class="casamento-conteudo container" id="home">
           <div class="secao">
             <h1>Bruna e Neymar</h1>
             <p class="paragrafo">Casamento</p>
@@ -35,8 +34,8 @@
 
 
 
-        <section class="trabalho container">
-           <h3>Trabalhos Recentes</h3> 
+        <section class="trabalho container" id="trabalhos">
+           <h3 class="cinza-escuro">Trabalhos Recentes</h3> 
            <div class="flex">
                 <div class="item">
                     <img class="img-casamento" src="assest/img/Marcella & João Paulo.png" alt="marcella e joão">
@@ -100,8 +99,8 @@
         </section>
 
         <section>
-            <div class="fundo-branco">
-                <h2>Sobre mim</h2>
+            <div class="fundo-branco"  id="sobre">
+                <h2 class="cinza-escuro">Sobre mim</h2>
                 <p class="texto-sobre">Garibaldo da Silva Nunes nasceu em Santa Catarina com uma paixão pela fotografia desde jovem.
                     Depois de se formar em Fotografia na Universidade Federal de Santa Catarina, ele decidiu seguir seus sonhos e ir para a Europa estudar mais. Lá, ele se especializou em fotografia de casamento e se tornou um dos melhores em sua profissão.
                     De volta ao Brasil, ele abriu seu próprio estúdio de fotografia e rapidamente ganhou uma reputação como um dos melhores fotógrafos de casamento do país. Com sua habilidade em capturar momentos únicos e belos, Garibaldo criou muitas memórias especiais para os casais que contrataram seus serviços.</p>
@@ -109,7 +108,7 @@
         </section>
 
         <section class="trabalho container">
-            <h3>Trabalhos em destaque</h3> 
+            <h3 class="cinza-escuro">Trabalhos em destaque</h3> 
             <div class="flex">
                  <div class="item">
                      <img class="img-casamento" src="assest/img/Luisa Sonza.png" alt="whindersson e luisa">
@@ -142,8 +141,8 @@
  
          </section>
 
-         <section class="form-branco">
-              <h3>Fale Conosco</h3>
+         <section class="form-branco" id="contato">
+              <h3 class="cinza-escuro">Fale Conosco</h3>
               <div class="fundo-formulario">
                  <form  class="form-casamento">
                      <img class="img-logo" src="assest/img/logo.png" alt="logo">
@@ -156,12 +155,19 @@
                    <div class="form-group">
                     <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Deixe sua mensagem aqui"></textarea>
                    </div>
-                   <a class="btn-form" href="">Enviar</a>
+                   <button class="btn-form" type="submit">Enviar</button>
                  </form>  
               </div>
          </section>
-
     </main>
+    <footer class="fundo-branco">
+        <div class="icones-redes">
+            <img class="icon" src="assest/img/icone-facebook.png" alt="facebook">
+            <img class="icon" src="assest/img/icone-instagram.png" alt="instagram">
+            <img class="icon" src="assest/img/icone-twitter.png" alt="twitter">
+        </div>
+        <p class="copy">&copy Copyright - by <span>Pixel Art</span></p>
+    </footer>
 
 </body>
 </html>

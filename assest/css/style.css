@@ -54,7 +54,6 @@ header img{
     background-image: url('../img/img-casamento.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     height: 100%;
     padding-bottom: 80px;
     border-radius: 0px 0px 10px 10px;
@@ -104,6 +103,7 @@ header img{
     margin-top: 8px;
     font-weight: 300;
     font-size: 18px;
+    color: #333;
 }
 
 
@@ -194,7 +194,9 @@ header img{
     color: #fff;
     padding: 7px 20px;
     transition: .5s;
+    border: none;
     border-radius: 4px;
+    cursor: pointer;
 }
 .btn-form:hover{
     background-color: rgba(255, 199, 0, 0.4);
@@ -209,4 +211,21 @@ header img{
 
 .form-branco h3{
     margin-bottom: 10px;
+}
+
+.cinza-escuro{
+    color: #333;
+}
+
+
+.icones-redes .icon{
+   width: 30px;
+}
+
+.fundo-branco .copy{
+    margin-top: 4px;
+}
+
+.copy span{
+    color: #949494;
 }
