@@ -84,7 +84,7 @@ header img{
 .flex {
     display: flex;
     justify-content: center;
-    gap: 35px;
+    gap: 10px;
     padding-bottom: 3rem;
     margin-top: 5px;
     flex-wrap: wrap;
@@ -110,8 +110,16 @@ header img{
 
 
 .item .img-casamento{
-    width: 240px;
+    width: 100%;
     height: 180px;
+    transition:.5s;
+    cursor:pointer;
+}
+
+.item .img-casamento:hover{
+    width:100%;
+    max-width:300px;
+    height:200px;
 }
 
 .item .sub-paragrafo{
@@ -154,7 +162,7 @@ header img{
     background-attachment: fixed;
     height:100%;
     width: 100%;
-    padding: 40px;
+    padding: 10px;
 }
 
 .form-casamento{
@@ -228,4 +236,22 @@ header img{
 
 .copy span{
     color: #949494;
+}
+
+
+
+@media (max-width:780px){
+  .cinza-escuro{
+    text-align:center;
+    margin-bottom: 1rem;
+  }
+  header{
+    padding-bottom:10px;
+  }
+  .secao {
+    padding-top: 15rem;
+   }
+   .secao h1{
+    font-size:43px;
+   }
 }
